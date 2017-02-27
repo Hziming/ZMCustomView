@@ -7,8 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LoginAndRegistView.h"
 
-@interface ViewController : UIViewController
+//假如 ViewController 是父类
+@interface ViewController : UIViewController<LoginAndRegistViewDelegate>
+
+- (void)requestData;
+
+- (void)addLoginAndRegistView;
+
+- (void)loginSuccess;
 
 
 @end

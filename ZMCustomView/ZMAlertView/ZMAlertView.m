@@ -27,6 +27,12 @@
 @property (weak, nonatomic) IBOutlet UIView *backView;
 
 
+@property (nonatomic, strong) NSString *title;
+
+@property (nonatomic, strong) NSString *leftTitle;
+
+@property (nonatomic, strong) NSString *rightTitle;
+
 @end
 
 
@@ -72,6 +78,24 @@
     
 }
 
+
+- (IBAction)leftClick:(UIButton *)sender {
+    
+    if (self.left) {
+        self.left();
+    }
+    [self removeFromSuperview];
+    
+}
+
+- (IBAction)rightClick:(UIButton *)sender {
+    if (self.right) {
+        self.right();
+    }
+    [self removeFromSuperview];
+    
+}
+
 - (void)setTitle:(NSString *)title
 {
     _title = title;
@@ -95,25 +119,6 @@
     [_rightButton setTitle:rightTitle forState:UIControlStateNormal];
     
 }
-
-
-- (IBAction)leftClick:(UIButton *)sender {
-    
-    if (self.left) {
-        self.left();
-    }
-    [self removeFromSuperview];
-    
-}
-
-- (IBAction)rightClick:(UIButton *)sender {
-    if (self.right) {
-        self.right();
-    }
-    [self removeFromSuperview];
-    
-}
-
 
 
 @end

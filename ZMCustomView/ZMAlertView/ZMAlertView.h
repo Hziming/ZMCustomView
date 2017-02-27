@@ -14,13 +14,6 @@ typedef void (^ZMAlertViewRightEvent)();
 @interface ZMAlertView : UIView
 
 
-
-@property (nonatomic, strong) NSString *title;
-
-@property (nonatomic, strong) NSString *leftTitle;
-
-@property (nonatomic, strong) NSString *rightTitle;
-
 @property (nonatomic, copy) ZMAlertViewLeftEvent left;
 
 @property (nonatomic, copy) ZMAlertViewRightEvent right;

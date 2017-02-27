@@ -13,6 +13,8 @@
 #import "ShoppingCarAlertView.h"
 #import "SelectTimeAlertView.h"
 #import "ZMAlertView.h"
+#import "ZMPhotoView.h"
+
 @interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *testLabel;
@@ -25,6 +27,27 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
+
+- (void)requestData{
+    
+    //请求数据，  获取本地数据 等等。。。
+    //然后刷新数据。
+    
+}
+
+
+- (void)addLoginAndRegistView
+{
+    [LoginAndRegistView alertControllerAboveIn:self];
+}
+
+
+#pragma mark - LoginAndRegistViewDelegate
+- (void)loginSuccess
+{
+    [self requestData];
+}
+
 
 
 
@@ -60,6 +83,7 @@
     __weak typeof(self)weakself = self;
 
     [ZMAlertView alertControllerAboveIn:self title:@"确定要删除此商品吗？" leftTitle:@"取消" leftEvent:^{
+        
         weakself.testLabel.text = @"取消";
 
     } rightTitle:@"确定" rightEvent:^{
@@ -68,6 +92,16 @@
     }];
     
 }
+
+
+- (IBAction)touchPhoto:(UITapGestureRecognizer *)sender {
+    
+    //用对象方法 实现也行~~~~~
+    [[ZMPhotoView shareInstance] alertControllerAboveIn:self imageView:(UIImageView *)sender.view];
+}
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -25,6 +25,11 @@
 		1408EFF61E61845B00D99CEB /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 1408EFF51E61845B00D99CEB /* UIView+CornerRadius.m */; };
 		1408EFFB1E618C9E00D99CEB /* ZMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1408EFFA1E618C9E00D99CEB /* ZMAlertView.m */; };
 		1408EFFD1E618CDE00D99CEB /* ZMAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1408EFFC1E618CDE00D99CEB /* ZMAlertView.xib */; };
+		14C80B2B1E63E75100171D8D /* LoginAndRegistView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C80B291E63E75100171D8D /* LoginAndRegistView.m */; };
+		14C80B2C1E63E75100171D8D /* LoginAndRegistView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14C80B2A1E63E75100171D8D /* LoginAndRegistView.xib */; };
+		14C80B321E63F16600171D8D /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C80B311E63F16600171D8D /* UserInfoViewController.m */; };
+		14C80B371E63FD6F00171D8D /* ZMPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C80B351E63FD6F00171D8D /* ZMPhotoView.m */; };
+		14C80B381E63FD6F00171D8D /* ZMPhotoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14C80B361E63FD6F00171D8D /* ZMPhotoView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +83,14 @@
 		1408EFF91E618C9E00D99CEB /* ZMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMAlertView.h; sourceTree = "<group>"; };
 		1408EFFA1E618C9E00D99CEB /* ZMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMAlertView.m; sourceTree = "<group>"; };
 		1408EFFC1E618CDE00D99CEB /* ZMAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZMAlertView.xib; sourceTree = "<group>"; };
+		14C80B281E63E75100171D8D /* LoginAndRegistView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginAndRegistView.h; sourceTree = "<group>"; };
+		14C80B291E63E75100171D8D /* LoginAndRegistView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginAndRegistView.m; sourceTree = "<group>"; };
+		14C80B2A1E63E75100171D8D /* LoginAndRegistView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginAndRegistView.xib; sourceTree = "<group>"; };
+		14C80B301E63F16600171D8D /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		14C80B311E63F16600171D8D /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
+		14C80B341E63FD6F00171D8D /* ZMPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMPhotoView.h; sourceTree = "<group>"; };
+		14C80B351E63FD6F00171D8D /* ZMPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMPhotoView.m; sourceTree = "<group>"; };
+		14C80B361E63FD6F00171D8D /* ZMPhotoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZMPhotoView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,8 +145,12 @@
 				1408EFB01E617BB600D99CEB /* AppDelegate.m */,
 				1408EFB21E617BB600D99CEB /* ViewController.h */,
 				1408EFB31E617BB600D99CEB /* ViewController.m */,
+				14C80B301E63F16600171D8D /* UserInfoViewController.h */,
+				14C80B311E63F16600171D8D /* UserInfoViewController.m */,
 				1408EFF41E61845B00D99CEB /* UIView+CornerRadius.h */,
 				1408EFF51E61845B00D99CEB /* UIView+CornerRadius.m */,
+				14C80B331E63FD6F00171D8D /* ZMPhotoView */,
+				14C80B271E63E73500171D8D /* Login_RegistView */,
 				1408EFF81E618C5700D99CEB /* ZMAlertView */,
 				1408EFE81E61823F00D99CEB /* SelectTimeAlertView */,
 				1408EFE21E617F4500D99CEB /* ShoppingCarAlertView */,
@@ -206,6 +223,26 @@
 				1408EFFC1E618CDE00D99CEB /* ZMAlertView.xib */,
 			);
 			path = ZMAlertView;
+			sourceTree = "<group>";
+		};
+		14C80B271E63E73500171D8D /* Login_RegistView */ = {
+			isa = PBXGroup;
+			children = (
+				14C80B281E63E75100171D8D /* LoginAndRegistView.h */,
+				14C80B291E63E75100171D8D /* LoginAndRegistView.m */,
+				14C80B2A1E63E75100171D8D /* LoginAndRegistView.xib */,
+			);
+			path = Login_RegistView;
+			sourceTree = "<group>";
+		};
+		14C80B331E63FD6F00171D8D /* ZMPhotoView */ = {
+			isa = PBXGroup;
+			children = (
+				14C80B341E63FD6F00171D8D /* ZMPhotoView.h */,
+				14C80B351E63FD6F00171D8D /* ZMPhotoView.m */,
+				14C80B361E63FD6F00171D8D /* ZMPhotoView.xib */,
+			);
+			path = ZMPhotoView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,7 +358,9 @@
 				1408EFBC1E617BB600D99CEB /* Assets.xcassets in Resources */,
 				1408EFE71E617F5000D99CEB /* ShoppingCarAlertView.xib in Resources */,
 				1408EFB71E617BB600D99CEB /* Main.storyboard in Resources */,
+				14C80B381E63FD6F00171D8D /* ZMPhotoView.xib in Resources */,
 				1408EFFD1E618CDE00D99CEB /* ZMAlertView.xib in Resources */,
+				14C80B2C1E63E75100171D8D /* LoginAndRegistView.xib in Resources */,
 				1408EFEF1E61824F00D99CEB /* SelectTimeAlertView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,11 +391,14 @@
 				1408EFFB1E618C9E00D99CEB /* ZMAlertView.m in Sources */,
 				1408EFB11E617BB600D99CEB /* AppDelegate.m in Sources */,
 				1408EFF01E61824F00D99CEB /* TimeModel.m in Sources */,
+				14C80B321E63F16600171D8D /* UserInfoViewController.m in Sources */,
 				1408EFBA1E617BB600D99CEB /* ZMCustomView.xcdatamodeld in Sources */,
 				1408EFAE1E617BB600D99CEB /* main.m in Sources */,
+				14C80B2B1E63E75100171D8D /* LoginAndRegistView.m in Sources */,
 				1408EFF31E61830600D99CEB /* NSDate+YYAdd.m in Sources */,
 				1408EFF61E61845B00D99CEB /* UIView+CornerRadius.m in Sources */,
 				1408EFE61E617F5000D99CEB /* ShoppingCarAlertView.m in Sources */,
+				14C80B371E63FD6F00171D8D /* ZMPhotoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,6 +636,7 @@
 				1408EFDB1E617BB600D99CEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1408EFDC1E617BB600D99CEB /* Build configuration list for PBXNativeTarget "ZMCustomViewTests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +645,7 @@
 				1408EFDE1E617BB600D99CEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1408EFDF1E617BB600D99CEB /* Build configuration list for PBXNativeTarget "ZMCustomViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +654,7 @@
 				1408EFE11E617BB600D99CEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
