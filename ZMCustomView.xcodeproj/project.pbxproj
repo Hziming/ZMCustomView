@@ -30,6 +30,7 @@
 		14C80B321E63F16600171D8D /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C80B311E63F16600171D8D /* UserInfoViewController.m */; };
 		14C80B371E63FD6F00171D8D /* ZMPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C80B351E63FD6F00171D8D /* ZMPhotoView.m */; };
 		14C80B381E63FD6F00171D8D /* ZMPhotoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14C80B361E63FD6F00171D8D /* ZMPhotoView.xib */; };
+		14C80B411E66BCFD00171D8D /* ZMWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C80B401E66BCFD00171D8D /* ZMWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,8 @@
 		14C80B341E63FD6F00171D8D /* ZMPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMPhotoView.h; sourceTree = "<group>"; };
 		14C80B351E63FD6F00171D8D /* ZMPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMPhotoView.m; sourceTree = "<group>"; };
 		14C80B361E63FD6F00171D8D /* ZMPhotoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZMPhotoView.xib; sourceTree = "<group>"; };
+		14C80B3F1E66BCFD00171D8D /* ZMWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMWebViewController.h; sourceTree = "<group>"; };
+		14C80B401E66BCFD00171D8D /* ZMWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +150,8 @@
 				1408EFB31E617BB600D99CEB /* ViewController.m */,
 				14C80B301E63F16600171D8D /* UserInfoViewController.h */,
 				14C80B311E63F16600171D8D /* UserInfoViewController.m */,
+				14C80B3F1E66BCFD00171D8D /* ZMWebViewController.h */,
+				14C80B401E66BCFD00171D8D /* ZMWebViewController.m */,
 				1408EFF41E61845B00D99CEB /* UIView+CornerRadius.h */,
 				1408EFF51E61845B00D99CEB /* UIView+CornerRadius.m */,
 				14C80B331E63FD6F00171D8D /* ZMPhotoView */,
@@ -390,6 +395,7 @@
 				1408EFB41E617BB600D99CEB /* ViewController.m in Sources */,
 				1408EFFB1E618C9E00D99CEB /* ZMAlertView.m in Sources */,
 				1408EFB11E617BB600D99CEB /* AppDelegate.m in Sources */,
+				14C80B411E66BCFD00171D8D /* ZMWebViewController.m in Sources */,
 				1408EFF01E61824F00D99CEB /* TimeModel.m in Sources */,
 				14C80B321E63F16600171D8D /* UserInfoViewController.m in Sources */,
 				1408EFBA1E617BB600D99CEB /* ZMCustomView.xcdatamodeld in Sources */,
